@@ -17,21 +17,22 @@ The project showcases:
 ---
 
 ## Project Structure
-mod_analytics/
-├── seeds/
-│ └── events.csv # Simulated raw event data
-├── models/
-│ ├── staging/
-│ │ └── stg_events.sql # Cleaned staging model
-│ ├── marts/
-│ │ ├── fct_mod_events.sql
-│ │ ├── mod_downloads.sql
-│ │ ├── daily_active_users.sql
-│ │ ├── mod_conversion.sql
-│ │ ├── user_sessions.sql
-│ │ └── session_metrics.sql
-├── generate_data.py # Script to generate fake event data
-├── dbt_project.yml
+
+mod_analytics\
+├── seeds\
+│    └── events.csv           # Simulated raw event data \
+├── models\
+│   ├── staging\
+│   │   └── stg_events.sql   # Cleaned staging model\
+│   ├── marts\
+│   │   ├── fct_mod_events.sql\
+│   │   ├── mod_downloads.sql\
+│   │   ├── daily_active_users.sql\
+│   │   ├── mod_conversion.sql\
+│   │   ├── user_sessions.sql\
+│   │   └── session_metrics.sql\
+├── generate_data.py         # Script to generate fake event data\
+├── dbt_project.yml\
 └── README.md
 
 ---
